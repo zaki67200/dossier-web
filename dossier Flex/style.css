@@ -1,0 +1,75 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Text', serif;
+  background-color: #CCC;
+
+}
+
+
+
+section  {
+    display: flex;
+    flex-direction: rows;
+
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    width:72em;
+
+
+}
+
+section article
+{
+  border: Solid 8px #CCC;
+  background-color: white;
+
+}
+
+section article h1
+{
+  text-align: center;
+  font-size: 28px;
+}
+
+section article p
+{
+  text-align: center;
+}
+
+article img
+{
+
+  object-fit: cover;
+  width:23em ;
+  height:20em;
+
+
+}
+header
+{
+  display: flex;
+  background-color: #e34422;
+  flex-grow: auto;
+  justify-content: center;
+
+
+}
+
+header h1
+{
+  color: white;
+  text-align: center;
+}
+
+section article h1
+{
+   color :#e34422;
+}
+
+footer p
+{
+  text-align: center;
+}
